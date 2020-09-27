@@ -1,0 +1,15 @@
+/* NAVBAR */
+.navead a:hover{
+    border-bottom: 2px solid;
+}
+/* /Navbar */
+.container{
+    margin-top: 5%;
+    padding: 1px 1px 10px 50px;
+}
+iframe{
+    margin-top: 17%;
+    margin-left: 3%;
+    width: 500px;
+    height: 250px;
+}
