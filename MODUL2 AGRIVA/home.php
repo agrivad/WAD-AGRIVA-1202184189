@@ -17,7 +17,7 @@
     <a class="nav-link active text-dark" href="home.php">Home</a>
   </li>
   <li class="nav-item mt-2">
-    <a class="nav-link text-dark" href="booking.php">Booking</a>
+    <a class="nav-link text-dark" href="mybooking.php">Booking</a>
   </li>
 </ul>
 <!-- /NAVBAR -->

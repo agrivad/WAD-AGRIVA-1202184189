@@ -32,7 +32,7 @@
                 <div class="form-group">
                     <label class="col col-form-label bold">Nama</label>
                     <div class="col-12">
-                        <input type="text" class="form-control" name="nama">
+                        <input type="number" class="form-control" name="nama">
                     </div>
                 </div>
                 <div class="form-group">
@@ -44,7 +44,7 @@
                 <div class="form-group">
                     <label class="col col-form-label bold">Duration</label>
                     <div class="col-12">
-                        <input type="number" class="form-control" name="duration" placeholder="">
+                        <input type="number" class="form-control" name="durasi" placeholder="">
                         <small><p>Day(s)</p></small>
                     </div>
                 </div>
