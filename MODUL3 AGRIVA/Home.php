@@ -38,7 +38,7 @@
 
 <?php
 include ('config.php');
-$query="SELECT * FROM 'event' ";
+$query="UPDATE * FROM 'event' ";
 $select = mysqli_query($conn,$query);
 ?>
 <?if($hasil=mysqli_fetch_assoc($select)){
