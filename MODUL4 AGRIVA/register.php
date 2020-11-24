@@ -82,7 +82,7 @@ if (isset($_POST['daftar'])) {
         </div>
         
         <div class="card text-center">
-        <button type="submit" class="btn justify-content-center btn-primary" name="daftar">Daftar</button>
+        <button type="submit" class="btn justify-content-center btn-primary" name="register">Daftar</button>
         </div>
         <p class="text-center">Sudah punya akun? <a href="login.php">Login</a></p>
     </form>

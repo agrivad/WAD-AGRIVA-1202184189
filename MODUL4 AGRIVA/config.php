@@ -41,7 +41,7 @@ function registrasi($request)
         
         if ($password == $passwordConfirm) {
             
-            $query = "INSERT INTO user VALUES ('', '$nama', '$email', '$no_hp', '$password')";
+            $query = "UPDATE user VALUES ('', '$nama', '$email', '$no_hp', '$password')";
             mysqli_query($conn, $query);
 
             $_SESSION['message'] = 'Berhasil registrasi';

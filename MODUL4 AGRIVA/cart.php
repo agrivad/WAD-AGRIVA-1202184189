@@ -1,5 +1,5 @@
 <?php
-session_start();
+session_destroy();
 include ("config.php");
 if (isset($_SESSION['email'])) {
     list($carts, $totalHarga) = show();
