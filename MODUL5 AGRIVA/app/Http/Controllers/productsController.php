@@ -7,7 +7,7 @@ use App\Models\products;
 
 class productsController extends Controller
 {
-    public function index()
+    public function indeks()
     {
         $product = products::all();
 
@@ -40,7 +40,7 @@ class productsController extends Controller
         return redirect('/products');
     }
 
-    public function delete($id)
+    public function hapus($id)
     {
         $delte = products::find($id);
         $delte->delete();
